@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(wave.png);
+	background-size: 100%;
+}
+#vide{
+	height: 20px;
+}
+#container{
+	 margin: 0 auto;
+     width: 200px;
+     background-color: rgba(97, 145, 193, 0.8);
+     border-radius: 6px;
+     padding: 10px;
+     clear: both;
+ }
+ p{
+ 	padding: 5px;
+ }
+input{
+	width: 90%;
+    clear: both;
+}
+#switch{
+	position: relative;
+	right: -110px;
+	top: -10px;
+	border-radius: 0px 6px;
+	padding: 10px;
+	background-color: rgba(97, 145, 193, 1);
+
+}
+a:link, a:visited {
+    background-color: rgba(97, 145, 193, 1);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
